@@ -1,0 +1,107 @@
+/* para seleccionar una etiqueta con el atributo class se utilizará el punto seguido del valor del atributo */
+.content {
+    width: 960px;
+    padding: 2%;
+    margin: 2%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    background-color: rgb(252, 171, 245);
+}
+
+header {
+    background-color: rgb(170, 99, 228);
+    border: 1px solid black;
+    color: rgb(22, 13, 31);
+    font-family: fantasy;
+    padding: 0%;
+    margin: 5%;
+}
+/* para seleccioanr una etiqueta con el atributo id se utilizará el hastag seguido del valor del atributo */
+#profile_photo {
+    height: 160px;
+    width: 140px;
+    border-radius: 50%;
+    float: left;
+}
+.contact_info * {
+    margin: 0;
+    background-color: rgb(214, 111, 228);
+    width: 475px;
+    float: left;
+}
+
+.contact_info img {
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+.aboutme * {
+    background-color: rgb(171, 89, 226); 
+}
+
+.aboutme {
+    width: 475px;
+    float: left;
+}
+
+#education * {
+    margin: 0px;
+    font-weight: 300;
+    background-color: rgb(170, 62, 202);
+    text-align: left;   
+}
+
+#education {
+    width: 475px;
+    float: right;
+}
+
+#education h3 {
+    font-weight: bold;
+}
+
+#education_head {
+    margin-bottom: 10px;
+
+}
+
+.title_study * {
+    font-weight: bold;
+}
+
+.experience * {
+    margin: 0;
+    background-color: rgb(206, 124, 226);
+    list-style: none;
+   
+}
+.experience {
+    width: 475px;
+    float: left;
+}
+.experience h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skills *{
+    background-color: rgb(156, 77, 137);
+    padding: 0%;
+    list-style: none;
+}
+.skills  {
+    width: 475px;
+    float: right;
+    
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid black;
+    clear: both;
+}
