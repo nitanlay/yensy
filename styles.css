@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Barlow';
 }
 .cv-complete {
     width: 95vw;
@@ -11,82 +12,192 @@
 .cv-content-general {
     display: flex;
     flex-direction: row;      
-    padding: 16px; 
+    padding: 0 16px 16px; 
     gap: 30px;
 }
-.cv-content-general > *{
-    width: calc(45% - 5px);
+.cv-content-general {
+    width: 100%;
 }
 .cv-left-content {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     justify-content: center;
-    gap: 30px;
+    gap: 2px;
+    width: calc(45% - 5px);
 }
 .contact-yen {
-    background-color: rgb(17, 64, 78);
+    background-color: #1d4355;
     border: 2px solid black;
     color: white;
-    padding: 10px;
-    margin: 0 0 0 50px;
+    margin-left: 30px;
+    padding-bottom: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-yen p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 40px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: 11pt;
+    gap: 10px;
+    margin-left: 73px;
+    margin-bottom: 8px;    
 }
+
 .profile-photo{
-    width: 200px;
-    height: 250px;
-    margin: 20px 50px 20px 50px;
-    
+    width: 243px;
+    height: 271px;
+    margin: 42px auto 33px;
 }
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 0.67cm;
+    height: 0.67cm;
     border-radius: 100%;
     border: 1px solid white ;
-    margin: 0 10px;
 }
 .education {
     text-align: justify;
-    color: rgb(17, 64, 78);
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0 0 50px;
+    margin-left: 30px;
 }
 .education h4 {
     margin: 40px 0 30px 0;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.8pt;
 }
 .name-institution {
     text-transform: uppercase;
+    font-size: 12pt ;
+}
+.date {
+    font-size: 9.8pt;
+    margin: 8px 0;
 }
 .name-study {
     margin: 0 0 40px 0; 
+    font-size: 11pt;
 }
 .languages {
     background-color: rgb(17, 64, 78);
     border: 2px solid black;
     color: white;
-   
-}
-.languages *{
-    
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -16px;
+    padding-bottom: 16px;
 }
 
 .languages h4 {
-    margin: 40px 0 20px 50px;
-    font-size: 30px;
+    margin: 16px 0 20px 50px;
+    font-size: 20.8pt;
 }
 
-.statistics {
-    margin: 0 0 10px 50px;
+.statistics {    
+    margin: 0 0 6px 75px;
+    font-size: 10pt;
+}
+.statistics label {
+    width: 85px;
+    display: inline-block;
+}
+progress {
+    width: 60px;
+    height: 6px;
+    border-radius: 8px;
+    border: 0;
+    max-height: 6px;
+    margin-bottom: 3px;
+    }
+
+progress::-webkit-progress-value { 
+    background-color: #6ce5e8;
+    border-radius: 8px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #6ce5e8;
+    border-radius: 6px;
+}
+
+small {
+    font-size: 8pt;
+}
+.cv-right-content {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    gap: 2px;
+    width: calc(55% - 5px);
+}
+.name-profession {
+    background-color: #365b6d;
+    margin: 70px 16px 0 -30px;
+}
+
+.name-profession h1 {
+    color: #c1ffeb;
+    font-size: 42pt;
+    font-weight: bolder;
+    margin: 0 0 10px 40px;
+    padding: 30px 0 10px 0;
+}
+.name-profession h2 {
+    color: #f2f1ec;
+    font-size: 22pt;
+    font-weight: bolder;
+    margin: 0 10px 0 40px;
+    padding-bottom: 40px;
+}
+.profile {
+    margin: 25px 42px 0 15px;
+    padding-right: 10px;
+}
+
+.profile h4 {
+    font-size: 20.8pt;
+    margin-bottom: 17px; 
+}
+.profile p {
+    font-size: 11pt;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.skills {
+    margin: 30px 0 20px 45px;
+}
+.skills h4 {
+    font-size: 20.8pt;
+    margin-bottom: 20px;
+}
+.skills li {
+    font-size: 11pt;
+    margin-left: 12px;
+}
+
+.work-experience {
+    margin: 30px 0 20px 45px;
+}
+.work-experience h4 {
+    font-size: 20.8pt;
+    margin-bottom: 17px;  
+}
+.post {
+    font-size: 12pt;
+    margin-top: 15px;
+}
+.company {
+    text-transform: uppercase;
+    font-size: 12pt ;
+}
+.date-work {
+    font-size: 11pt;
+    margin-bottom: 17px; 
+}
+.work-experience li {
+    margin-left:20px;
+    font-size: 11pt;
+}
+.green {
+    color: #365b6d;
 }
