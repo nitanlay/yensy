@@ -1,85 +1,85 @@
-<!-- "ctrl + shift + p" para arreglar el codigo -->
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>CV</title>
-    <!-- 1 una hoja de vida que tenga estilos los necesarios para presentarla -->
-    <!-- manejar tags esclusivos para cada contenido -->
-    <!-- abarcar toda la experiencia que tenga -->
-    <!-- cuando se de click en la imagen de perfil se abra una alerta indicando el id de la etiqueta "<>" de la imagen -->
-    <link href="./styles.css" rel="stylesheet" type="text/css" />
-    <!-- La etiqueta de estilos se agrega antes del body, dentro del head -->
-    <!-- link es una etiqueta para enlazar con otros documentos -->
-  </head>
-  <body>
-    <div class="content">
-    <header>
-        <h1>Yensy Yulieth Muñoz Tapiero</h1>
-        <h2>
-          Tecnico en contabilizacion de operaciones comerciales y financieras
-        </h2>
-    </header>
-      <!-- se colocara el atributo class para identificar la etiqueta aside de las demas -->
-      <aside class="contact_info">
-        <img
-          id="profile_photo2"
-          src="./public/imagenes/foto.PNG"
-          alt="foto de perfil - yensy"
-          a href="#" onclick="alertImagen();"></a>
-        
-        <h3>Contacto</h3>
-        <img src="./public/imagenes/icono celular.PNG" alt="celular" />
-        <h4>Celular: 3208029648</h4>
-        <img src="./public/imagenes/icono correo.PNG" alt="correo" />
-        <h4>Correo electronico: ysney_16@hotmail.com</h4>
-  </aside>
-      <article class="aboutme">
-        <h3>Sobre mi</h3>
-        <p>
-          Empleada en el sector financiero con más de ocho años de experiencia
-          en cumplimiento y gestión de operaciones de moneda extranjera,
-          portafolio de inversiones, renta fija, certificados de depósito a
-          término, cuentas de ahorro, cuentas corrientes, créditos comerciales y
-          de consumo, validación y revisión de reportes regulatorios y manejo
-          contable de las operaciones antes mencionadas. Cuento con habilidades
-          de liderazgo, trabajo orientado al resultado y habituada al trabajo
-          bajo presión.
-        </p>
-    </article>
-    <article id="education">
-        <h3 id="education_head">Educación</h3>
-        <h4 class="title_study">Corporación Universidad Minuto de Dios</h4>
-        <h4>Administración de empresas</h4>
-        <h4 id="education_head">Un semestre en el año 2018</h4>
-        <h4 class="title_study">Servicio Nacional de Aprendizaje (SENA) </h4>
-        <h4>
-          Técnico en contabilización de operaciones comerciales y financieras
-        </h4>
-        <h4>Abril 9 de 2012 – noviembre 21 de 2015</h4>
-    </article>
-    <section class="experience">
-        <h3>Experiencia</h3>
-        <h4>Analista Backoffice de Tesoreria</h4>
-        <h4>Latam Credit Colombia S.A antes Banco Multibank S.A</h4>
-        <h4>Septiembre 2014 – Noviembre 2022</h4>
-        <ul>
-          <li> Procesos Contables: Conciliación, análisis,Interpretación y
-              construcción.
-          </li>
-          <li>Atención a requerimientos</li>
-          <li>operaciones de moneda extranjera</li>
-          <li>portafolio de inversiones</li>
-          <li>renta fija</li>
-          <li>certificado de depósito a termino</li>
-          <li>cuentas de ahorro y cuentas corrientes</li>
-          <li>créditos comerciales y de consumo libranza</li>
-          <li>validación y revisión de reportes regulatorios 351 y 396</li>
-          <br>
-          </ul>
-   
-    <article class="skills">
-          <h3>Competencias</h3>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV-Yensy_Muñoz</title>
+  <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+  <link href="./styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="cv-complete">
+    <section class="cv-content-general">
+      <div class="cv-left-content">
+        <div class="contact-yen">
+          </aside>
+          <img src="public/imagenes/foto.PNG" id="photo-yen" class="profile-photo">
+          <p><img src="public/icons/icons8-phone.svg" alt="icon-phone" class="icon">(320)802-9648</p>
+          <p><img src="public/icons/email.svg" alt="icon-mail" class="icon">ysney_16@hotmail.com</p>
+          <p><img src="public/icons/icons8-facebook.svg" alt="icon-facebook" class="icon">@nitanlay</p>
+          <p><img src="public/icons/address-icon.svg" alt="icon-address" class="icon">calle falsa 123 No. 12-00</p>
+          <p><img src="public/icons/internet-svgrepo-com.svg" alt="icon-web" class="icon">www.nitanlay.com.co</p>
+        </div>
+        <div class="education green">
+          <h4 class="title-study green">Formación académica</h4>
+          <p class="name-institution">Corp. Universidad Minuto de Dios </p>
+          <p class="date">Un semestre en el año 2018</p>
+          <p class="name-study">Administración de empresas</p>
+          <p class="name-institution">Servicio Nacional de Aprendizaje (SENA)</p>
+          <p class="date">Abril 9 de 2012 - noviembre 21 de 2015</p>
+          <p class="name-study">Técnico en contabilización de operaciones comerciales y financieras</p>
+          <p class="name-institution">Instituto Tecnisistemas</p>
+          <p class="date">Junio de 2023</p>
+          <p class="name-study">Curso de Excel básico-intermedio</p>
+        </div>
+        <div class="languages">
+          <h4 class="title-language">
+            Idiomas
+          </h4>
+          <ol>
+            <li class="statistics">
+              <label for="Español">Español:</label>
+              <progress id="Español" max="100" value="100"> </progress>
+              <small>100%</small>
+            </li>
+            <li class="statistics">
+              <label for="Ingles">Ingles:</label>
+              <progress id="Ingles" max="100" value="75"></progress>
+              <small>75%</small>
+            </li>
+            <li class="statistics">
+              <label for="Aleman">Aleman:</label>
+              <progress id="Aleman" max="100" value="46"></progress>
+              <small>46%</small>
+            </li>
+            <li class="statistics">
+              <label for="Frances">Frances:</label>
+              <progress id="Frances" max="100" value="67"></progress>
+              <small>67%</small>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="cv-right-content">
+        <div class="name-profession">
+          <h1><b>Yensy Muñoz </b></h1>
+          <h2>Tecnico en contabilización de operaciones comerciales y financieras</h2>
+        </div>
+        <div class="profile green">
+          <h4>Perfil</h4>
+          <p>Soy tecnico contable con más de <b>ocho años de experiencia</b>
+            en el sector financiero en cumplimiento y gestión de operaciones de moneda extranjera,
+            portafolio de inversiones, renta fija, certificados de depósito a
+            término, cuentas de ahorro, cuentas corrientes, créditos comerciales y
+            de consumo, validación y revisión de reportes regulatorios y manejo
+            contable de las operaciones antes mencionadas. Cuento con habilidades
+            de liderazgo, trabajo orientado al resultado y habituada al trabajo
+            bajo presión.</p>
+        </div>
+        <div class="skills green">
+          <h4>Habilidades</h4>
           <ul>
             <li>WSEBRA</li>
             <li>NEG</li>
@@ -90,17 +90,42 @@
             <li>Comunicación</li>
             <li>Herramientas ofimáticas</li>
           </ul>
-    </article>
-      </section>
-      <!-- scripts siempre a lo ultimo, scripts es igual a comandos -->
-      <!-- se agrega a lo ultimo para que el js sepa que hay en el documento para modificarlo -->
-      <script src="main.js" type="text/JavaScript"></script>
-    
-    <footer>
-      <h5>
-        Firma: Yensy Muñoz
-      </h5>
-    </footer>
+        </div>
+        <div class="work-experience green">
+          <h4>Experiencia profesional</h4>
+          <p class="post">Analista Backoffice de Tesoreria</p>
+          <p class="company">Latam Credit Colombia S.A antes Banco Multibank S.A</p>
+          <p class="date-work">Febrero 2018 - Noviembre 2022</p>
+          <ul>
+            <li> Procesos Contables: Conciliación, análisis,interpretación y
+              construcción</li>
+            <li>Atención a requerimientos regulatorios</li>
+            <li>Registro y cumplimiento de operaciones de moneda extranjera</li>
+            <li>Manejo del portafolio de inversiones</li>
+            <li>Registro y cumplimiento de operaciones de renta fija</li>
+            <li>Seguimiento de los certificados de depósito a termino</li>
+            <li>Créditos comerciales y de consumo libranza</li>
+            <li><b>Validación y revisión de reportes regulatorios datacredito,cifin y habeas data</b></li>
+          </ul>
+          <p class="post">Analista Operaciones</p>
+          <p class="company">Latam Credit Colombia S.A antes Banco Multibank S.A</p>
+          <p class="date-work">Septiembre 2014 - Enero 2018</p>
+          <ul>
+            <li> Procesos Contables: Conciliación, análisis,interpretación y
+              construcción</li>
+            <li>Atención a requerimientos</li>
+            <li>Operaciones de moneda extranjera</li>
+            <li>Portafolio de inversiones</li>
+            <li>Renta fija</li>
+            <li>Certificado de depósito a termino</li>
+            <li>Cuentas de ahorro y cuentas corrientes</li>
+            <li>Créditos comerciales y de consumo libranza</li>
+            <li><b>Validación y revisión de reportes regulatorios 351 y 396</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </div>
-  </body>
+</body>
+
 </html>
